@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="64227" started-at="2020-07-09T11:47:41Z" finished-at="2020-07-09T11:48:45Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="64227" started-at="2020-07-09T11:47:41Z" finished-at="2020-07-09T11:48:45Z">
+      <class name="startupProject.QuotationPage">
+        <test-method status="PASS" signature="StartUp()[pri:0, instance:startupProject.QuotationPage@6fd02e5]" name="StartUp" is-config="true" duration-ms="25294" started-at="2020-07-09T11:47:41Z" finished-at="2020-07-09T11:48:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartUp -->
+        <test-method status="PASS" signature="managerLogin(java.lang.String, java.lang.String)[pri:0, instance:startupProject.QuotationPage@6fd02e5]" name="managerLogin" duration-ms="9924" started-at="2020-07-09T11:48:07Z" data-provider="wordpressData" finished-at="2020-07-09T11:48:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[usernam]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managerLogin -->
+        <test-method status="PASS" signature="managerLogin(java.lang.String, java.lang.String)[pri:0, instance:startupProject.QuotationPage@6fd02e5]" name="managerLogin" duration-ms="13052" started-at="2020-07-09T11:48:17Z" data-provider="wordpressData" finished-at="2020-07-09T11:48:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sunil]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kenn@admin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managerLogin -->
+        <test-method status="PASS" signature="addQuotation()[pri:0, instance:startupProject.QuotationPage@6fd02e5]" name="addQuotation" duration-ms="14436" started-at="2020-07-09T11:48:30Z" finished-at="2020-07-09T11:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addQuotation -->
+      </class> <!-- startupProject.QuotationPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
